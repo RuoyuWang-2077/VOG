@@ -1,0 +1,13 @@
+{
+  "name": "dvoc_proxy_j2",
+  "output_dir": "runs/dvoc_proxy_j2",
+  "model": {
+    "path": "Tongyi-MAI/Z-Image-Turbo"
+  },
+  "method": {
+    "active_steps": 3,
+    "anchor": "proxy",
+    "ascent_steps": 2,
+    "proxy_sigma": 0.273
+  }
+}

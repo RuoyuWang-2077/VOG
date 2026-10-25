@@ -1,0 +1,12 @@
+{
+  "reference": "DVOC paired-target continuation snapshot, 2026-09-28",
+  "target_cases": 40,
+  "target_max_abs_error": 0.0,
+  "composition_loss_gradient_cases": 30,
+  "composition_max_abs_error": 0.0,
+  "loss_max_abs_error": 0.0,
+  "gradient_max_abs_error": 0.0,
+  "device": "CPU",
+  "torch": "2.14.1",
+  "scope": "Float32 latent arithmetic and autograd; full pretrained model forward not included"
+}

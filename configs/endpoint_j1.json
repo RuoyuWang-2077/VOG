@@ -1,0 +1,12 @@
+{
+  "name": "dvoc_endpoint_j1",
+  "output_dir": "runs/dvoc_endpoint_j1",
+  "model": {
+    "path": "Tongyi-MAI/Z-Image-Turbo"
+  },
+  "method": {
+    "active_steps": 3,
+    "anchor": "endpoint",
+    "ascent_steps": 1
+  }
+}
