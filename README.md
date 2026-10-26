@@ -241,8 +241,6 @@ If you find this work useful, please cite:
 }
 ```
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). See [NOTICE.md](NOTICE.md) for external dependencies and data attribution.
+See [NOTICE.md](NOTICE.md) for external dependencies and data attribution.
 
 Contact: [wangruoyu71@westlake.edu.cn](mailto:wangruoyu71@westlake.edu.cn)

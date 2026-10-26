@@ -6,4 +6,4 @@ The CLIP and aesthetic adapters retain their reference links to [imscore](https:
 
 ImageReward, PickScore, HPSv3++, Q-Align, DeQA, and pretrained backbones are external dependencies with their own licenses. Their weights and source distributions are not included in this project.
 
-Prompt-list provenance is documented in [data/README.md](data/README.md). The project's MIT license does not replace licenses for external libraries, model weights, or datasets.
+Prompt-list provenance is documented in [data/README.md](data/README.md).
