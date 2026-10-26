@@ -1,0 +1,145 @@
+{
+  "paper_title": "Variational Optimal Control for Diffusion Guidance",
+  "imagenet_fid": {
+    "columns": [
+      "EDM2-S 512x512",
+      "DiT-XL/2 256x256",
+      "EDM2-L 64x64",
+      "DiT-XL/2 512x512"
+    ],
+    "samples_per_setting": 50000,
+    "rows": [
+      {
+        "guidance": "CFG",
+        "fid": [
+          "2.29",
+          "2.27",
+          "1.99",
+          "3.04"
+        ]
+      },
+      {
+        "guidance": "CFG + VOG",
+        "fid": [
+          "2.03",
+          "2.04",
+          "1.42",
+          "2.89"
+        ]
+      },
+      {
+        "guidance": "Interval",
+        "fid": [
+          "1.87",
+          "1.97",
+          "1.64",
+          "2.41"
+        ]
+      },
+      {
+        "guidance": "Interval + VOG",
+        "fid": [
+          "1.67",
+          "1.94",
+          "1.52",
+          "2.39"
+        ]
+      },
+      {
+        "guidance": "Cosine",
+        "fid": [
+          "2.15",
+          "2.30",
+          "1.67",
+          "3.48"
+        ]
+      },
+      {
+        "guidance": "Cosine + VOG",
+        "fid": [
+          "2.06",
+          "2.03",
+          "1.65",
+          "2.83"
+        ]
+      }
+    ]
+  },
+  "reward_alignment": {
+    "updates": 20,
+    "prompts": 1000,
+    "sampling_steps": 9,
+    "resolution": 1024,
+    "columns": [
+      "HPSv3++",
+      "CLIP",
+      "Q-Align quality",
+      "Q-Align aesthetics",
+      "AES",
+      "ImageReward",
+      "DeQA"
+    ],
+    "rows": [
+      {
+        "method": "Z-Image-Turbo",
+        "scores": [
+          "6.72",
+          "0.2757",
+          "4.825",
+          "3.533",
+          "5.412",
+          "0.959",
+          "4.439"
+        ]
+      },
+      {
+        "method": "ReFL",
+        "scores": [
+          "12.22",
+          "0.2744",
+          "4.844",
+          "4.223",
+          "5.955",
+          "1.159",
+          "4.133"
+        ]
+      },
+      {
+        "method": "DRTune",
+        "scores": [
+          "12.70",
+          "0.2688",
+          "4.932",
+          "4.489",
+          "6.095",
+          "1.225",
+          "4.262"
+        ]
+      },
+      {
+        "method": "DiffusionOPSD",
+        "scores": [
+          "13.56",
+          "0.2782",
+          "4.886",
+          "4.452",
+          "6.101",
+          "1.196",
+          "4.014"
+        ]
+      },
+      {
+        "method": "DVOC (K=3)",
+        "scores": [
+          "13.79",
+          "0.2765",
+          "4.943",
+          "4.618",
+          "6.288",
+          "1.279",
+          "4.237"
+        ]
+      }
+    ]
+  }
+}

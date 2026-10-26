@@ -3,9 +3,9 @@ requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dvoc"
+name = "vog"
 version = "0.2.0"
-description = "DVOC: reward-guided latent targets and sparse Euler training for Z-Image"
+description = "VOG: variational optimal control for diffusion guidance and model adaptation"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"

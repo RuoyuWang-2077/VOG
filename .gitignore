@@ -9,6 +9,6 @@ build/
 dist/
 runs/
 wandb/
-models/
+/models/
 .env
 .DS_Store

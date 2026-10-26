@@ -9,5 +9,5 @@ export IMAGEREWARD_ROOT="/path/to/ImageReward"
 export OMP_NUM_THREADS=4
 export QALIGN_MODEL_PATH="/path/to/one-align"
 export DEQA_MODEL_PATH="/path/to/DeQA-Score-Mix3"
-export WANDB_PROJECT="dvoc"
+export WANDB_PROJECT="vog"
 export WANDB_MODE="offline"

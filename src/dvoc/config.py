@@ -83,7 +83,7 @@ class DiagnosticsConfig:
 @dataclass
 class TrackingConfig:
     backend: str = "wandb"
-    project: str = "dvoc"
+    project: str = "vog"
     entity: str = ""
     group: str = ""
     mode: str = "offline"
