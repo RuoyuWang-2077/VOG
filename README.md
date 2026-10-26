@@ -36,7 +36,7 @@ A local denoising approximation reveals the shared mechanism: **map output prefe
 <p align="center">
   <img src="assets/framework.png" alt="A shared variational control principle: VOG corrects sampling states and DVOC distills improved endpoint targets into model parameters." width="100%">
 </p>
-<p align="center"><em>One variational principle, two realizations: VOG controls sampling states, and DVOC learns the control through endpoint distillation.</em></p>
+<p align="center"><em>VOG corrects the current sampling state. DVOC refines the sampled endpoint and distills the fixed target into model parameters.</em></p>
 
 | ImageNet guidance | Generation in 25 steps | Adaptation in 20 updates |
 |:---:|:---:|:---:|
