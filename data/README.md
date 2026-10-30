@@ -12,4 +12,4 @@ train.txt  39d94f994a249777207878d793f65d1dbaa7227e7e2409039cca8518aaa7100c
 test.txt   9006b98feabb94b28a2bc0c88de42fd4f31a9ec3c2a19e308a02c5385b7172f0
 ```
 
-The project license covers DVOC code; external dataset content retains its original terms. Custom datasets use one nonempty prompt per line. Create a new plan with `dvoc plan` after changing either prompt file; the loader checks their hashes before training.
+External dataset content retains its original terms. Custom datasets use one nonempty prompt per line. Create a new plan with `dvoc plan` after changing either prompt file; the loader checks their hashes before training.

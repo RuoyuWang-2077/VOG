@@ -1,9 +1,16 @@
-# External dependencies and data
+# Acknowledgments
 
-This package uses Diffusers for Z-Image, PEFT for LoRA, PyTorch for training, and separate pretrained reward models. Model weights and reward-model source distributions are not bundled.
+We thank the authors of the following projects for sharing their code and models:
 
-The CLIP and aesthetic adapters retain their reference links to [imscore](https://github.com/RE-N-Y/imscore/blob/main/src/imscore/preference/model.py) and [improved-aesthetic-predictor](https://github.com/christophschuhmann/improved-aesthetic-predictor), respectively. These references concern the corresponding reward-model integrations, not the DVOC algorithm or training method.
+- [Diffusers](https://github.com/huggingface/diffusers)
+- [PEFT](https://github.com/huggingface/peft)
+- [Z-Image](https://github.com/Tongyi-MAI/Z-Image)
+- [imscore](https://github.com/RE-N-Y/imscore)
+- [Improved Aesthetic Predictor](https://github.com/christophschuhmann/improved-aesthetic-predictor)
+- [HPSv3++](https://github.com/PlantPotatoOnMoon/HPSv3-PlusPlus)
+- [ImageReward](https://github.com/zai-org/ImageReward)
+- [PickScore](https://github.com/yuvalkirstain/PickScore)
+- [Q-Align](https://github.com/Q-Future/Q-Align)
+- [DeQA-Score](https://github.com/DepictQA/deqa-score)
 
-ImageReward, PickScore, HPSv3++, Q-Align, DeQA, and pretrained backbones are external dependencies with their own licenses. Their weights and source distributions are not included in this project.
-
-Prompt-list provenance is documented in [data/README.md](data/README.md).
+Prompt data sources are listed in [data/README.md](data/README.md).

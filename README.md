@@ -244,4 +244,4 @@ If you find this work useful, please cite:
 }
 ```
 
-See [NOTICE.md](NOTICE.md) for external dependencies and data attribution.
+Thanks to the authors of the open-source projects listed in our [acknowledgments](NOTICE.md).
