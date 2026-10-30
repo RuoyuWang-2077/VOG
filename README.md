@@ -234,13 +234,14 @@ vog/
 If you find this work useful, please cite:
 
 ```bibtex
-@misc{wang2026variational,
-  title  = {Variational Optimal Control for Diffusion Guidance},
-  author = {Ruoyu Wang and Xinyi Ye and Yunshuo Shi and Liangyu Yuan and Beier Zhu and Chi Zhang},
-  year   = {2026}
+@misc{wang2026variationaloptimalcontroldiffusion,
+      title={Variational Optimal Control for Diffusion Guidance}, 
+      author={Ruoyu Wang and Xinyi Ye and Yunshuo Shi and Liangyu Yuan and Beier Zhu and Chi Zhang},
+      year={2026},
+      eprint={2610.37146},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2610.37146}, 
 }
 ```
 
 See [NOTICE.md](NOTICE.md) for external dependencies and data attribution.
-
-Contact: [wangruoyu71@westlake.edu.cn](mailto:wangruoyu71@westlake.edu.cn)
